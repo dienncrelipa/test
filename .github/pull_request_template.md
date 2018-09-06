@@ -3,8 +3,8 @@ Checklist cho Merge Request. Ghi X vào trong ngoặc []. PM xác nhận pass h�
 ### [Developer]
   - [ ] Đã tự review lại source code của mình trước khi nhờ người khác review theo [Coding Checklist](http://bit.ly/2H8kodH)
   - [ ] Đã self-test và điền kết quả vào checklist
-  - [ ] Đã đặt title merge request theo định dạng `Task #{ISSUE_NUMBER} #{ISSUE_TYPE} {ISSUE_CONTENTS}``
-  - [ ] TẤT CẢ các commit message tuân theo định dạng `Task #{ISSUE_NUMBER} #{ISSUE_TYPE} {ISSUE_CONTENTS}``
+  - [ ] Đã đặt title merge request theo định dạng `Task #{ISSUE_NUMBER} #{ISSUE_TYPE} {ISSUE_CONTENTS}`
+  - [ ] TẤT CẢ các commit message tuân theo định dạng `Task #{ISSUE_NUMBER} #{ISSUE_TYPE} {ISSUE_CONTENTS}`
     - Trong đó :
       - `#{ISSUE_NUMBER}` là Redmine ID.
       - `#{ISSUE_TYPE}` là dạng issue : `#DEV` | `#HOTFIX` | `#RELEASE`
