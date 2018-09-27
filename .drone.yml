@@ -7,22 +7,21 @@ pipeline:
         image: newtmitch/sonar-scanner
         commands:
           - >
-            sonar-scanner
-            -Dsonar.projectName=${DRONE_REPO_NAME}
-            -Dsonar.host.url=http://sonar.relipa.blog
-            -Dsonar.projectKey=${DRONE_BRANCH}
-            -Dsonar.projectVersion=${DRONE_BUILD_NUMBER}
-            -Dsonar.login=admin
-            -Dsonar.password=admin
-            -Dsonar.projectBaseDir=.
-            -Dsonar.sources=.
-            -Dsonar.sourceEncoding=UTF-8
-            -Dsonar.host.url=http://sonar.relipa.blog
-            -Dsonar.analysis.mode=preview
-            -Dsonar.github.repository=dienncrelipa/test
-            -Dsonar.github.pullRequest=${DRONE_PULL_REQUEST}
-            -Dsonar.verbose=true
-            -Dsonar.github.login=dienncrelipa
+            sonar-scanner \
+            -Dsonar.projectName=${DRONE_REPO_NAME} \
+            -Dsonar.host.url=http://sonar.relipa.blog \ 
+            -Dsonar.projectKey=${DRONE_BRANCH} \ 
+            -Dsonar.projectVersion=${DRONE_BUILD_NUMBER} \
+            -Dsonar.login=2dd31ea8480b6dd0da0a0b325b81d8cee78e8571 \
+            -Dsonar.projectBaseDir=. \
+            -Dsonar.sources=. \
+            -Dsonar.sourceEncoding=UTF-8 \
+            -Dsonar.host.url=http://sonar.relipa.blog \
+            -Dsonar.analysis.mode=preview \
+            -Dsonar.github.repository=dienncrelipa/test \
+            -Dsonar.github.pullRequest=${DRONE_PULL_REQUEST} \
+            -Dsonar.verbose=true \
+            -Dsonar.github.login=dienncrelipa \
             -Dsonar.github.oauth=1793004e34506d672f4706edd52e125cd06666c1
 trigger:
     event:
