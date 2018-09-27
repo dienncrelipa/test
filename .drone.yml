@@ -8,10 +8,10 @@ pipeline:
         commands:
           - >
             sonar-scanner
-            -Dsonar.projectName="API (${DRONE_BRANCH})"
+            -Dsonar.projectName=${DRONE_BRANCH}
             -Dsonar.host.url=http://sonar.relipa.blog
-            -Dsonar.projectKey=api:${DRONE_BRANCH}
-            -Dsonar.projectVersion=$(cat VERSION)
+            -Dsonar.projectKey=${DRONE_BRANCH}
+            -Dsonar.projectVersion=${DRONE_BUILD_NUMBER}
             -Dsonar.projectBaseDir=.
             -Dsonar.login=admin
             -Dsonar.password=admin
@@ -20,7 +20,7 @@ pipeline:
             -Dsonar.host.url=http://sonar.relipa.blog
             -Dsonar.analysis.mode=preview
             -Dsonar.github.repository=dienncrelipa/test
-            -Dsonar.github.pullRequest=${DRONE_PULL_REQUES}
+            -Dsonar.github.pullRequest=${DRONE_PULL_REQUEST}
             -Dsonar.verbose=true
             -Dsonar.github.login=dienncrelipa
             -Dsonar.github.oauth=7ba7df34fb9777009601836df88b3d5592bba161
