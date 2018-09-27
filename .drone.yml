@@ -9,7 +9,7 @@ pipeline:
         showProfiling: true
 
 pipeline:
-  build:
-    image: golang
-    commands:
-      - env
+    build:
+        image: golang
+        commands:
+            - env
