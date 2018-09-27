@@ -1,0 +1,371 @@
+.button,
+button {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background: #fff;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    height: auto;
+    /* Old browsers */
+}
+
+p a {
+    font-family: 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+}
+
+p a.button01, p a.button04 {
+    /* IE10+ */
+    background-image: -ms-linear-gradient(top, #FA5E7C 0%, #FC2E56 100%);
+
+    /* Mozilla Firefox */
+    background-image: -moz-linear-gradient(top, #FA5E7C 0%, #FC2E56 100%);
+
+    /* Opera */
+    background-image: -o-linear-gradient(top, #FA5E7C 0%, #FC2E56 100%);
+
+    /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FA5E7C), color-stop(100, #FC2E56));
+
+    /* Webkit (Chrome 11+) */
+    background-image: -webkit-linear-gradient(top, #FA5E7C 0%, #FC2E56 100%);
+
+    /* W3C Markup */
+    background-image: linear-gradient(to bottom, #FA5E7C 0%, #FC2E56 100%);
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+    padding: 25px;
+    font-size: 24px;
+    border-radius: 56px;
+    border: none;
+    border-bottom: solid 5px #d12445;
+    white-space: inherit;
+}
+
+p a.button01:hover, p a.button04:hover {
+    text-decoration: none;
+    /* IE10+ */
+    background-image: -ms-linear-gradient(top, #FA5E7C 0%, #FC2E56 100%);
+
+    /* Mozilla Firefox */
+    background-image: -moz-linear-gradient(top, #FA5E7C 0%, #FC2E56 100%);
+
+    /* Opera */
+    background-image: -o-linear-gradient(top, #FA5E7C 0%, #FC2E56 100%);
+
+    /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FA5E7C), color-stop(100, #FC2E56));
+
+    /* Webkit (Chrome 11+) */
+    background-image: -webkit-linear-gradient(top, #FA5E7C 0%, #FC2E56 100%);
+
+    /* W3C Markup */
+    background-image: linear-gradient(to bottom, #FA5E7C 0%, #FC2E56 100%);
+    color: #ffffff;
+    border-bottom: solid 5px #d12445;
+}
+
+p a.button02 {
+    /* IE10+ */
+    background-image: -ms-linear-gradient(top, #27e85e 0%, #11c644 100%);
+
+    /* Mozilla Firefox */
+    background-image: -moz-linear-gradient(top, #27e85e 0%, #11c644 100%);
+
+    /* Opera */
+    background-image: -o-linear-gradient(top, #27e85e 0%, #11c644 100%);
+
+    /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #27e85e), color-stop(100, #11c644));
+
+    /* Webkit (Chrome 11+) */
+    background-image: -webkit-linear-gradient(top, #27e85e 0%, #11c644 100%);
+
+    /* W3C Markup */
+    background-image: linear-gradient(to bottom, #27e85e 0%, #11c644 100%);
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+    padding: 25px;
+    font-size: 24px;
+    border-radius: 56px;
+    border: none;
+    border-bottom: solid 5px #169e2e;
+}
+
+p a.button02:hover {
+    border-bottom: solid 5px #169e2e;
+    text-decoration: none;
+    /* IE10+ */
+    background-image: -ms-linear-gradient(top, #27e85e 0%, #11c644 100%);
+
+    /* Mozilla Firefox */
+    background-image: -moz-linear-gradient(top, #27e85e 0%, #11c644 100%);
+
+    /* Opera */
+    background-image: -o-linear-gradient(top, #27e85e 0%, #11c644 100%);
+
+    /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #27e85e), color-stop(100, #11c644));
+
+    /* Webkit (Chrome 11+) */
+    background-image: -webkit-linear-gradient(top, #27e85e 0%, #11c644 100%);
+
+    /* W3C Markup */
+    background-image: linear-gradient(to bottom, #27e85e 0%, #11c644 100%);
+    color: #ffffff;
+}
+
+p a.button03 {
+    /* IE10+ */
+    background-image: -ms-linear-gradient(top, #f5f5f5 0%, #dedede 100%);
+
+    /* Mozilla Firefox */
+    background-image: -moz-linear-gradient(top, #f5f5f5 0%, #dedede 100%);
+
+    /* Opera */
+    background-image: -o-linear-gradient(top, #f5f5f5 0%, #dedede 100%);
+
+    /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f5f5f5), color-stop(100, #dedede));
+
+    /* Webkit (Chrome 11+) */
+    background-image: -webkit-linear-gradient(top, #f5f5f5 0%, #dedede 100%);
+
+    /* W3C Markup */
+    background-image: linear-gradient(to bottom, #f5f5f5 0%, #dedede 100%);
+    width: 100%;
+    text-align: center;
+    color: #666666;
+    padding: 25px;
+    font-size: 24px;
+    border-radius: 56px;
+    border: none;
+    border-bottom: solid 5px #c3c3c3;
+}
+
+p a.button03:hover {
+    border-bottom: solid 5px #c3c3c3;
+    text-decoration: none;
+    /* IE10+ */
+    background-image: -ms-linear-gradient(top, #f5f5f5 0%, #dedede 100%);
+
+    /* Mozilla Firefox */
+    background-image: -moz-linear-gradient(top, #f5f5f5 0%, #dedede 100%);
+
+    /* Opera */
+    background-image: -o-linear-gradient(top, #f5f5f5 0%, #dedede 100%);
+
+    /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f5f5f5), color-stop(100, #dedede));
+
+    /* Webkit (Chrome 11+) */
+    background-image: -webkit-linear-gradient(top, #f5f5f5 0%, #dedede 100%);
+
+    /* W3C Markup */
+    background-image: linear-gradient(to bottom, #f5f5f5 0%, #dedede 100%);
+    color: #666666;
+}
+
+p a.button01:after, p a.button02:after, p a.button04:after {
+    content: url('../images/button-arrow.png');
+    float: right;
+    position: relative;
+    top: 5px;
+}
+
+p a.button03:after {
+    content: url('../images/button-grey-arrow.png');
+    float: right;
+    position: relative;
+    top: 5px;
+}
+
+p a.button04:before {
+    content: url("../images/button04-icon.png");
+    position: absolute;
+    top: 0;
+    left: -85px;
+}
+
+p a.button04 {
+    margin-left: 85px;
+    position: relative;
+}
+
+p a.link {
+    text-decoration: underline;
+}
+
+/* Preview link options */
+#link-kinds-selection p a.button01:after,
+#link-kinds-selection p a.button02:after,
+#link-kinds-selection p a.button04:after,
+#link-kinds-selection p a.button03:after {
+    content: " ";
+    float: right;
+    position: relative;
+    top: 0;
+    margin-left: 5px;
+    display: block;
+    height: 20px;
+    background-image: url(../images/button-arrow.png);
+    width: 20px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#link-kinds-selection p a.button04:before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0px;
+    background-image: url(../images/button04-icon.png);
+    display: block;
+    width: 20px;
+    height: 30px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.redactor-editor p a.button04 {
+    width: calc(100% - 85px);
+}
+
+@media screen and (max-width: 768px) {
+    p a.button01,
+    p a.button02,
+    p a.button03 {
+        width: calc(100% - 70px);
+    }
+
+    p a.button04 {
+        background: none;
+        padding: 16px 15px;
+        width: calc(100% - 156px);
+        margin-left: 109px;
+        position: relative;
+        margin-top: 45px;
+        border-radius: 2px;
+        border: solid 1px rgb(255, 118, 172);
+        background-color: rgb(255, 255, 255);
+        font-size: 14px;
+        font-family: "Yu Gothic", YuGothic, sans-serif;
+        color: rgb(255, 118, 172);
+        font-weight: bold;
+        line-height: 1.2;
+        margin-bottom: 15px;
+    }
+
+    p a.button04:after {
+        display: none;
+    }
+
+    p a.button04:before {
+        content: " ";
+        background: url(../images/button04-icon-sp.png) no-repeat;
+        position: absolute;
+        bottom: 0;
+        left: -95px;
+        display: block;
+        width: 81px;
+        height: 89px;
+        top: initial;
+    }
+
+    p a.button01,
+    p a.button02,
+    p a.button03 {
+        background: none;
+        text-align: left;
+        font-size: 19px;
+        font-weight: bold;
+        width: calc(100% - 60px);
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 15px;
+        border-radius: 2px;
+        padding: 14px 15px 13px 15px;
+    }
+
+    p a.button01,
+    p a.button01:hover,
+    p a.button01:active,
+    p a.button01:visited {
+        font-size: 14px;
+        font-family: "Yu Gothic", YuGothic, sans-serif;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        line-height: 1.571;
+        text-align: left;
+        background-color: rgb(255, 118, 172);
+        box-shadow: 1px 1.732px 0px 0px rgba(238, 58, 129, 0.004);
+        border: none;
+        border-bottom: solid 2px rgb(238, 58, 129);
+        padding: 15px;
+    }
+
+    p a.button02,
+    p a.button02:hover,
+    p a.button02:active,
+    p a.button02:visited {
+        border: solid 1px rgb(255, 118, 172);
+        background-color: rgb(255, 255, 255);
+        font-size: 14px;
+        font-family: "Yu Gothic", YuGothic, sans-serif;
+        color: rgb(255, 118, 172);
+        font-weight: bold;
+        line-height: 1.571;
+        text-align: left;
+    }
+
+    p a.button03,
+    p a.button03:hover,
+    p a.button03:active,
+    p a.button03:visited {
+        border: solid 1px rgb(232, 232, 232);
+        background-color: rgb(249, 249, 249);
+        font-size: 14px;
+        font-family: "Yu Gothic", YuGothic, sans-serif;
+        color: rgb(31, 31, 31);
+        font-weight: bold;
+        line-height: 1.571;
+    }
+
+    p a.button01:after,
+    p a.button02:after,
+    p a.button03:after {
+        content: "\f18e";
+        color: #0f0f0f;
+        position: absolute;
+        right: 5%;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 14px;
+        font-family: "FontAwesome";
+        line-height: 1.943;
+    }
+
+    p a.button01:after {
+        color: rgb(255, 255, 255);
+    }
+
+    p a.button02:after {
+        color: rgb(255, 118, 172);
+    }
+
+    p a.button03:after {
+        color: rgb(31, 31, 31);
+    }
+
+    p a.button {
+        position: relative;
+    }
+}
