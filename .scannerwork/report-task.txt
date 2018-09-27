@@ -1,6 +1,0 @@
-projectKey=drone
-serverUrl=http://sonar.relipa.blog
-serverVersion=7.1.0.11001
-dashboardUrl=http://sonar.relipa.blog/dashboard/index/drone
-ceTaskId=AWYbsY5WGZd6fgaLIoLb
-ceTaskUrl=http://sonar.relipa.blog/api/ce/task?id=AWYbsY5WGZd6fgaLIoLb
