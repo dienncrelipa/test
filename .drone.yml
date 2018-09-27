@@ -1,0 +1,29 @@
+pipeline:
+    build:
+        image: golang
+        commands:
+            - env
+    sonarqube:
+        image: newtmitch/sonar-scanner
+        commands:
+          - >
+            sonar-scanner
+            -Dsonar.projectName=${DRONE_REPO_NAME}
+            -Dsonar.host.url=http://sonar.relipa.blog
+            -Dsonar.projectKey=${DRONE_BRANCH}
+            -Dsonar.projectVersion=${DRONE_BUILD_NUMBER}
+            -Dsonar.login=admin
+            -Dsonar.password=admin
+            -Dsonar.projectBaseDir=.
+            -Dsonar.sources=.
+            -Dsonar.sourceEncoding=UTF-8
+            -Dsonar.host.url=http://sonar.relipa.blog
+            -Dsonar.analysis.mode=preview
+            -Dsonar.github.repository=dienncrelipa/test
+            -Dsonar.github.pullRequest=${DRONE_PULL_REQUEST}
+            -Dsonar.verbose=true
+            -Dsonar.github.login=dienncrelipa
+            -Dsonar.github.oauth=7ba7df34fb9777009601836df88b3d5592bba161
+trigger:
+    event:
+      - pull_request
