@@ -1,7 +1,7 @@
 pipeline:
     code-analysis:
         image: aosapps/drone-sonar-plugin
-        secrets: [http://sonar.relipa.blog,65c225516f8b3635a2722bd8743bfe7ac80109b0]
+        secrets: http://sonar.relipa.blog,65c225516f8b3635a2722bd8743bfe7ac80109b0
         ver: 1.0
         timeout: 20
         sources: .
