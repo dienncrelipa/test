@@ -12,7 +12,8 @@ pipeline:
             -Dsonar.host.url=http://sonar.relipa.blog 
             -Dsonar.projectKey=${DRONE_BRANCH} 
             -Dsonar.projectVersion=${DRONE_BUILD_NUMBER}
-            -Dsonar.login=2dd31ea8480b6dd0da0a0b325b81d8cee78e8571
+            -Dsonar.login=admin
+            -Dsonar.password=admin
             -Dsonar.projectBaseDir=.
             -Dsonar.sources=.
             -Dsonar.sourceEncoding=UTF-8
