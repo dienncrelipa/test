@@ -3,7 +3,6 @@ pipeline:
         image: aosapps/drone-sonar-plugin
         secrets: ['http://sonar.relipa.blog','65c225516f8b3635a2722bd8743bfe7ac80109b0']
         sources: ./
-        level: DEBUG
         showProfiling: true
     build:
         image: golang
