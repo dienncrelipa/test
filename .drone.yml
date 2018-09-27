@@ -20,8 +20,7 @@ pipeline:
             -Dsonar.host.url=http://sonar.relipa.blog
             -Dsonar.analysis.mode=preview
             -Dsonar.github.repository=dienncrelipa/test
-            -Dsonar.github.pullRequest=DRONE_PULL_REQUEST
-            -D#sonar.verbose=true
+            -Dsonar.github.pullRequest=${DRONE_PULL_REQUES}
+            -Dsonar.verbose=true
             -Dsonar.github.login=dienncrelipa
             -Dsonar.github.oauth=7ba7df34fb9777009601836df88b3d5592bba161
-            -D#sonar.language=php
