@@ -5,9 +5,6 @@ pipeline:
             - env
     sonarqube:
         image: newtmitch/sonar-scanner
-        group: parallel-3
-        volumes:
-          - sonar-cache:/root/.sonar/cache
         commands:
           - >
             sonar-scanner
