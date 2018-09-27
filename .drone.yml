@@ -23,6 +23,6 @@ pipeline:
             -Dsonar.verbose=true
             -Dsonar.github.login=dienncrelipa
             -Dsonar.github.oauth=7ba7df34fb9777009601836df88b3d5592bba161
-    trigger:
-        event:
-          - pull_request
+trigger:
+    event:
+      - pull_request
