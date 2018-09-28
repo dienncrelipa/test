@@ -7,7 +7,23 @@ pipeline:
         image: newtmitch/sonar-scanner
         commands:
           - >
-            sonar-scanner -D /drone/src/github.com/dienncrelipa/test/sonar-project.properties
+            sonar-scanner
+            -Dsonar.projectName=${DRONE_REPO_NAME}
+            -Dsonar.host.url=http://sonar.relipa.blog 
+            -Dsonar.projectKey=${DRONE_BRANCH} 
+            -Dsonar.projectVersion=${DRONE_BUILD_NUMBER}
+            -Dsonar.login=admin
+            -Dsonar.password=admin
+            -Dsonar.projectBaseDir=.
+            -Dsonar.sources=.
+            -Dsonar.sourceEncoding=UTF-8
+            -Dsonar.host.url=http://sonar.relipa.blog
+            -Dsonar.analysis.mode=preview
+            -Dsonar.github.repository=dienncrelipa/test
+            -Dsonar.github.pullRequest=${DRONE_PULL_REQUEST}
+            -Dsonar.verbose=true
+            -Dsonar.github.login=dienncrelipa
+            -Dsonar.github.oauth=01cdc2246370fb48237ea8b7cbb4c3d6d66cf7d4
 trigger:
     event:
       - pull_request
