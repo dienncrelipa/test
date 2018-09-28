@@ -7,7 +7,7 @@ pipeline:
         image: newtmitch/sonar-scanner
         commands:
           - >
-            sonar-scanner
+            sonar-scanner -D /drone/src/github.com/dienncrelipa/test/sonar-project.properties
 trigger:
     event:
       - pull_request
