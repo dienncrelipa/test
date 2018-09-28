@@ -23,7 +23,7 @@ pipeline:
             -Dsonar.github.pullRequest=${DRONE_PULL_REQUEST}
             -Dsonar.verbose=true
             -Dsonar.github.login=dienncrelipa
-            -Dsonar.github.oauth=d9fb5838179a679c9bf35278dc75ce09896e7479
+            -Dsonar.github.oauth=c74afec118ea6dd40af42f37185146165e20a3b6
 trigger:
     event:
       - pull_request
