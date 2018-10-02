@@ -1,8 +1,4 @@
 pipeline:
-    build:
-        image: golang
-        commands:
-            - env
     sonarqube:
         image: newtmitch/sonar-scanner:3.2.0-alpine
         commands:
@@ -23,4 +19,4 @@ pipeline:
             -Dsonar.github.pullRequest=${DRONE_PULL_REQUEST}
             -Dsonar.verbose=true
             -Dsonar.github.login=dienncrelipa
-            -Dsonar.github.oauth=a4c68bcd996ca9f43cb4be77e206f334891ba35e
+            -Dsonar.github.oauth=d51574a6567ec5ab9f21ab7cee4dc24abefcb586
