@@ -1,0 +1,83 @@
+/* Font */
+@import url("../fonts/roboto_font.css");
+
+
+.contentWrapper {
+    text-align: center;
+}
+
+#uploadArea, uploadProgressBar {
+    max-width: 640px;
+}
+
+#uploadArea {
+    display: block;
+    padding: 10px 30px;
+    border: 3px dashed #CCC;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #AAA;
+    cursor: pointer;
+}
+
+#fileDetail {
+    word-wrap: break-word;
+}
+
+.userRelatedUrl {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.my-alert {
+    display: table;
+    margin:0 auto;
+}
+
+.tblManage .tblManageFileName {
+    width: 40%;
+}
+.tblManage .tblManageLink {
+    width: 40%;
+}
+.tblManage .tblManageAction {
+    width: 20%;
+}
+
+.fileSizeDownloadSpan {
+    color: #AAA;
+    font-size: 20px;
+}
+
+footer {
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+ul.header-nav {
+    list-style: none;
+    margin: 0;
+    padding: 34px 0 0;
+}
+ul.header-nav > li {
+    float: left;
+}
+ul.header-nav > li:after {
+    content: "|";
+    padding: 0 10px;
+}
+ul.header-nav > li:last-child:after {
+    content: "";
+}
+h1.page-title {
+    padding-bottom: 20px;
+    margin: 0;
+}
+.theMainContent {
+    padding: 10px;
+    border: 1px solid #AAA;
+}
+.container form {
+    font-size: 14px;
+}
